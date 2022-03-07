@@ -1,0 +1,24 @@
+.btn, .btn-red, .btn-pink, .btn-orange {
+  width: 200px;
+  padding: 10px 0;
+  margin: 5px;
+  background: none;
+  border: none;
+  text-transform: uppercase;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 10px;
+}
+
+.btn-orange {
+  background-color: orange;
+}
+
+.btn-pink {
+  background-color: pink;
+}
+
+.btn-red {
+  background-color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
