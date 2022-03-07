@@ -1,0 +1,21 @@
+.btn, .btn-orange {
+  width: 200px;
+  padding: 10px 0;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+.btn:hover, .btn-orange:hover {
+  cursor: pointer;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.2);
+  font-style: italic;
+}
+
+.btn-orange {
+  background-color: #fb8500;
+  color: #fff;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */

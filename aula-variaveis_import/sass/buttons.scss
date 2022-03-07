@@ -1,0 +1,21 @@
+.btn {
+    width: 200px;
+    padding: 10px 0;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+
+    &:hover {
+        cursor: pointer;
+    box-shadow: 2px 4px 5px $color-op20;
+    font-style: italic
+    }
+}
+
+.btn-orange {
+    @extend .btn;
+    background-color: $color-orange;
+    color: $color-white;
+    font-weight: bold;
+}
