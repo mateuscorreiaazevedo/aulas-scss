@@ -1,0 +1,47 @@
+@charset "UTF-8";
+.btn {
+  width: 200px;
+  padding: 10px 0;
+  border: none;
+  border-radius: 10px;
+  background: none;
+  text-transform: uppercase;
+}
+.btn.btn-orange {
+  background: #FB5607;
+  color: #fff;
+}
+.btn.btn-orange:hover {
+  /*background: darken($color: $background, $amount: 2); /* a função darken faz com o escurecimento, então pode colocar a variável do mixin para gerar um fade no hover */
+  /*background: desaturate($color: $background, $amount: 10); reduz a saturação da cor que está sofrendo a ação*/
+  /*background: mix($background, #fff, $weight: 80);/* mistura as cores, bom para gerar um clareamento no hover */
+  background: #818181;
+  /* adiciona uma escala de cinza na cor, gerando um clareamento em tons acinzentados */
+  transition: all 800ms ease;
+}
+.btn.btn-pink {
+  background: #FF006E;
+  color: #fff;
+}
+.btn.btn-pink:hover {
+  /*background: darken($color: $background, $amount: 2); /* a função darken faz com o escurecimento, então pode colocar a variável do mixin para gerar um fade no hover */
+  /*background: desaturate($color: $background, $amount: 10); reduz a saturação da cor que está sofrendo a ação*/
+  /*background: mix($background, #fff, $weight: 80);/* mistura as cores, bom para gerar um clareamento no hover */
+  background: gray;
+  /* adiciona uma escala de cinza na cor, gerando um clareamento em tons acinzentados */
+  transition: all 800ms ease;
+}
+.btn.btn-blue {
+  background: #8338EC;
+  color: #fff;
+}
+.btn.btn-blue:hover {
+  /*background: darken($color: $background, $amount: 2); /* a função darken faz com o escurecimento, então pode colocar a variável do mixin para gerar um fade no hover */
+  /*background: desaturate($color: $background, $amount: 10); reduz a saturação da cor que está sofrendo a ação*/
+  /*background: mix($background, #fff, $weight: 80);/* mistura as cores, bom para gerar um clareamento no hover */
+  background: #929292;
+  /* adiciona uma escala de cinza na cor, gerando um clareamento em tons acinzentados */
+  transition: all 800ms ease;
+}
+
+/*# sourceMappingURL=style.css.map */
