@@ -1,3 +1,19 @@
+@mixin btn-style($background, $color) {
+    background: $background;
+    color: $color;
+}
+
+
+.btn-green {
+    border-radius: 20px;
+    @include btn-style($color-orange, #000);
+    border: none;
+    width: 400px;
+    padding: 20px 0;
+    text-transform: uppercase;
+
+}
+
 .btn {
     width: 200px;
     padding: 10px 0;
@@ -11,40 +27,28 @@
         box-shadow: 2px 4px 5px $opacity-20;
         font-style: italic;
     }
-}
+    &.btn-orange {
+        @include btn-style($color-orange, #fff);
+        font-weight: bold;
+    }
 
-@mixin btn-style($background, $color) {
-    background: $background;
-    color: $color;
-}
+    &.btn-blue {
+        @include btn-style($color-blue, #fff);
+        font-weight: bold;
+    }
 
-.btn-orange {
-    @extend .btn;
-    @include btn-style($color-orange, #fff);
-    font-weight: bold;
-}
+    &.btn-green {
+        @include btn-style($color-green, #fff);
+        font-weight: bold;
+    }
 
-.btn-blue {
-    @extend .btn;
-    @include btn-style($color-blue, #fff);
-    font-weight: bold;
-}
+    &.btn-red {
+        @include btn-style($color-red, #fff);
+        font-weight: bold;
+    }
 
-.btn-green {
-    @extend .btn;
-   @include btn-style($color-green, #fff);
-    font-weight: bold;
+    &.btn-yellow {
+        @include btn-style($color-yellow, #fff);
+        font-weight: bold;
+    }
 }
-
-.btn-red {
-    @extend .btn;
-   @include btn-style($color-red, #fff);
-    font-weight: bold;
-}
-
-.btn-yellow {
-    @extend .btn;
-    @include btn-style($color-yellow, #fff);
-    font-weight: bold;
-}
-
