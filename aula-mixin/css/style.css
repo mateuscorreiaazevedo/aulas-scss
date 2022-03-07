@@ -1,0 +1,45 @@
+.btn, .btn-yellow, .btn-red, .btn-green, .btn-blue, .btn-orange {
+  width: 200px;
+  padding: 10px 0;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+.btn:hover, .btn-yellow:hover, .btn-red:hover, .btn-green:hover, .btn-blue:hover, .btn-orange:hover {
+  cursor: pointer;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.2);
+  font-style: italic;
+}
+
+.btn-orange {
+  background: #fb8500;
+  color: #fff;
+  font-weight: bold;
+}
+
+.btn-blue {
+  background: #023E8a;
+  color: #fff;
+  font-weight: bold;
+}
+
+.btn-green {
+  background: #9EF01A;
+  color: #fff;
+  font-weight: bold;
+}
+
+.btn-red {
+  background: #E63946;
+  color: #fff;
+  font-weight: bold;
+}
+
+.btn-yellow {
+  background: #FFEA00;
+  color: #fff;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
