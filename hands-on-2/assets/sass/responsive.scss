@@ -1,0 +1,23 @@
+@media screen and (max-width: 1240px) {
+    body {
+        background-size: 780px;
+    }
+    .container {
+        width: 900px;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    body {
+        background-size: 750px;
+    }
+    .container {
+        width: 780px;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    body {
+        background-size: 700px;
+    }
+}

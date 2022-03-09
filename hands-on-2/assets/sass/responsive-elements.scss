@@ -1,0 +1,11 @@
+@media screen and (max-width: 1040px) {
+    body {
+        background-color: #eee;
+    }
+    .container {
+        width: 800px;
+    }
+    .row {
+        flex-direction: column;
+    }
+}

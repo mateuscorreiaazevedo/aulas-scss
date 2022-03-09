@@ -2,6 +2,9 @@
 
 /* font-family: 'Source Sans Pro', sans-serif; */
 
+@import "./responsive.scss";
+@import "./responsive-elements.scss";
+
 * {
     margin: 0;
     padding: 0;
